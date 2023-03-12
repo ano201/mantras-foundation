@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+  font-family: Roboto;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background: rgb(15,93,171);
+background: linear-gradient(180deg, rgba(15,93,171,1) 26%, rgba(6,64,116,1) 57%);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 40px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #e1e3e5;
+  font-size: 19px;
+  margin: 0;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 1px;
+  max-width: 300px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 39px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 18px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+
