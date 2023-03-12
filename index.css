@@ -1,0 +1,22 @@
+.our-impact {
+  background: url("https://i.ibb.co/cvJGqjH/our-Impactfaded.jpg");
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.w-4{
+    width: 40px;
+}
+
+.text-sm{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .our-impact {
+    height: 145vh;
+  }
+}
