@@ -28,3 +28,13 @@ img {
   line-height: 30px;
 
 }
+
+@media(max-width: 480px) {
+  .image{
+    flex-direction: row;
+    position: top;
+  }
+  .text{
+    text-align: bottom;
+  }
+}
